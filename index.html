@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+   <div id="show-points">
+   <ul id="p1">
+      <li id="player-n-1"></li>
+      <li id="wins-num-1">0</li>
+   </ul>
+   <ul id="p2">
+      <li id="player-n-2"></li>
+      <li id="wins-num-2">0</li>
+   </ul>
+</div>
+<div id="corpus"> 
+   <button id="reset">Reset All</button>
+   <div id="turns">
+      <div id="turn-1"><h3></h3></div>
+      <div id="turn-2"><h3></h3></div>
+   </div>
+   
+   <div id="first-pick">
+      <h2>How do you want to play?</h2>
+      <button id="one-player">One Player</button>
+      <button id="two-players">Two Players</button>
+   </div>
+   <div id="second-pick">
+      <h2></h2>
+      <button id="X">X</button>
+      <button id="O">O</button>
+      <button id="back"><span>&larr;</span> Back</button>
+   </div>   
+   
+   <table id="game-table">
+      <tr id="r-0"><td class="t-0"></td><td class="t-1">
+                   </td><td class="t-2"></td></tr>
+      <tr id="r-1"><td class="t-0"></td><td class="t-1">
+                   </td><td class="t-2"></td></tr>
+      <tr id="r-2"><td class="t-0"></td><td class="t-1">
+                   </td><td class="t-2"></td></tr>
+   </table>
+   
+   <div id="win-message"></div>
+</div>
+   <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
